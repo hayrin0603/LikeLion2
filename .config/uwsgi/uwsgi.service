@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
 
 [Service]
-ExecStart=/home/ubuntu/venv/bin/uwsgi -i /srv/LikeLion3/.config/uwsgi/kywProject.ini
+ExecStart=/home/ubuntu/venv/bin/uwsgi -i /srv/LikeLion2/.config/uwsgi/jhrProject.ini
 
 Restart=always
 KillSignal=SIGQUIT
